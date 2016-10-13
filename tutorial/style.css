@@ -1,0 +1,25 @@
+input[type="number"]{
+
+    border: 2px solid #5ee090;
+    padding: 10px 10px;
+    margin: 10px;
+    width: 50px;
+}
+input[type="submit"]{
+    background-color: #5ee090;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+input[type="reset"]{
+    background-color: white;
+    border: 1px solid #5ee090;
+    padding: 10px;
+    color: #5ee090;    
+}
+
+a:link { text-decoration: none; color: #51b778; }
+a:visited { text-decoration: none; color: #51b778; }
+a:hover { text-decoration: none; color: #2f8952; }
+a:active { text-decoration: none; color: #51b778; }
+
