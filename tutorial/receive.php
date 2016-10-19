@@ -24,8 +24,11 @@
           $answer = $a * $b;
           break;
         case "/":
-          $answer = $a / $b;
-              
+            if($b == 0){
+            echo '0以外の値を入力してください';
+          } else {
+          $answer = $a / $b;    
+            }
               
           break;
         default:
